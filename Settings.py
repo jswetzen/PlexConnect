@@ -30,6 +30,7 @@ g_settings = [
     ('port_dnsserver'  , ('53', '[0-9]{1,5}')),
     ('ip_dnsmaster'    , ('8.8.8.8', '([0-9]{1,3}\.){3}[0-9]{1,3}')),
     ('prevent_atv_update'           , ('True', '((True)|(False))')),
+    ('intercept_atv_icon', ('True', '((True)|(False))')),
     \
     ('enable_plexconnect_autodetect', ('True', '((True)|(False))')),
     ('enable_plexconnect_autodetect_outside', ('True', '((True)|(False))')),
